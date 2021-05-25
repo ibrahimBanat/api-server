@@ -8,7 +8,7 @@ const notFoundHandler = require('./error-handlers/404');
 const errorHandler = require('./error-handlers/500');
 
 const foodRoute = require('./routes/food');
-const clothesRoute = require('./routes/food');
+const clothesRoute = require('./routes/clothes');
 const logger = require('./middleware/logger');
 
 app.use(logger);
